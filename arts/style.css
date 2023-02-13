@@ -1,0 +1,169 @@
+
+html {
+	height: 1500px;
+    font-size: 0;
+	}
+
+body {
+    font-size: 16px;
+}
+
+
+.parallax {
+	position: fixed;
+	}
+
+h2 {
+	top: 75px;
+	margin-top: -3rem;
+	z-index: 5;
+}
+
+.box {
+	top: -1400px;
+	margin-top: 29rem;
+    left: 50%;
+    margin-left: -27%;
+	padding: 2%;
+	width: 50%;
+    position: fixed;
+}
+a {
+    position: relative;
+    color: #fff;
+    padding: 10px 20px;
+    background: transparent
+    color: #112434;
+    margin-top: 10px;
+    display: inline-block;
+    text-decoration none;
+    font-weight: 700;
+}
+.balcon {
+    top: 240px;
+    margin-top: -28rem;
+    left: 8%;
+}
+
+.cleo {
+    top: 320px;
+    margin-top: -55rem;
+    left: 25%;
+}
+
+.damas {
+    top: 200px;
+    margin-top: -20rem;
+    left: 40%;
+    z-index: 10;
+}
+
+.ensu {
+    top: 360px;
+    margin-top: -47rem;
+    left: 56%;
+}
+
+.lepanto {
+    top: 260px;
+    margin-top: -33rem;
+    left: 75%;
+}
+
+.oda {
+    top: 640px;
+    height: 260px;
+    margin-top: -28rem;
+    left: 8%;
+}
+.parisian {
+    top: 700px;
+    margin-top: -55rem;
+    left: 25%;
+}
+.spol {
+    top: 640px;
+    margin-top: -20rem;
+    left: 40%;
+    height: 260px;
+    z-index: 10;
+}
+.tampuhan {
+    top: 760px;
+    margin-top: -47rem;
+    left: 56%;
+}
+.puesta {
+    top: 660px;
+    margin-top: -33rem;
+    left: 75%;
+}
+
+
+
+html {
+	background: #233c38 url('https://goo.gl/5wJBu') 50% 50%;
+	background-attachment: fixed;
+	background-size: cover;
+    font-family: sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+	color: #fff;
+    scroll-behavior: smooth;
+}
+
+
+
+h2 {
+    width: 100%;
+    font: 3em/1 'Oswald', sans-serif;
+    font-weight: 700;
+    text-align: center;
+	text-transform: uppercase;
+	text-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+}
+a::after, a::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    transition: all 0.4s, opacity 0.1s 0.4s;
+    opacity: 0;
+}
+a::after {
+    bottom: 0;
+    right: 0;
+    border-bottom: 3px solid #112434;
+    border-right: 3px solid #112434;
+}
+a::before {
+    top: 0;
+    left: 0;
+    border-top: 3px solid #112434;
+    border-left: 3px solid #112434;
+}
+a:hover::after, a:hover::before
+{
+    width: calc(100% + 10px);
+    height: calc(100% + 10px);
+    transition: 0.4s, opacity 0.1s;
+    opacity: 1;
+}
+p {
+  margin: 0 0 1.5em;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+img {
+	width: 20%;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.box {
+	background-color: rgba(255, 255, 255, 0.1);
+    position: fixed;
+}
+

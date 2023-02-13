@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Members</title>
+
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(#9E768F 0%, #9FA4C4 100%);
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        h1{
+            text-align: center;
+            font-size: 60px;
+            font-weight: 800;
+            letter-spacing: 0.125rem;
+            font-family: Garamond;
+        }
+
+        .container{
+            display: flex;
+            width: 100%;
+            padding: 1% 2%;
+            box-sizing: border-box;
+            height: 60vh;
+        }
+
+        .profile-card{
+            flex: 1;
+            overflow: hidden;
+            transition: 0.5s;
+            margin: 0 2%;
+            box-shadow: 0 1.25rem 1.875rem rgba(0,0,0,.2);
+            line-height: -1px;
+            border-radius: 10%;
+        }
+
+        .profile-card > img{
+            width: 100%;
+            height: calc(100% - 10vh);
+            object-fit: cover;
+            transition: 0.5s;
+        }
+
+        .profile-card > span{
+            font-size: 15px;
+            display: block;
+            text-align: center;
+            height: 10vh;
+            line-height: 1;
+            color: #333;
+            text-transform: uppercase;
+            margin-bottom: -40px;
+            margin-top: -1px;
+            font-family: ariel;
+           
+        }
+        .profile-card > p{
+            font-size: 15px;
+            display: block;
+            text-align: center;
+            height: 10vh;
+            line-height: 1;
+            color: #333;
+            text-transform: uppercase;
+            margin-bottom: -40px;
+            margin-top: -1px;
+            font-family: ariel;
+        }
+
+        .profile-card:hover{
+            flex: 1 1 30%;
+        }
+
+        .profile-card:hover > img{
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1><a href="Juan Luna's Work of Art.html">Team Members</a></h1>
+
+    <div class="container">
+        <div class="profile-card">
+            <img src="Members/1.jpg" alt="Cantillano">
+            <span>john Vincent G. Cantillano</span>
+            <p>Documentation</p>
+        </div>
+        <div class="profile-card">
+            <img src="Members/2.jpg" alt="Claveria">
+            <span>Michael M. Claveria</span>
+            <p>Front End</p>
+        </div>
+        <div class="profile-card">
+            <img src="Members/3.jpg" alt="Pena">
+            <span>John Patrick Dela Pena</span>
+            <p>Documentation</p>
+        </div>
+        <div class="profile-card">
+            <img src="Members/4.jpeg" alt="Convento">
+            <span>Raizzen Convento</span>
+            <p>Documentation</p>
+        </div>
+        <div class="profile-card">
+            <img src="Members/5.jpg" alt="Cuesta">
+            <span>jan Risty H. Cuesta</span>
+            <p>Front End</p>
+        </div>
+    </div>
+</body>
+</html>
